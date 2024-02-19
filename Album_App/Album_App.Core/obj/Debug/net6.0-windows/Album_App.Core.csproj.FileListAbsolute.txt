@@ -1,0 +1,12 @@
+C:\Users\admin\Desktop\Album\Album_App\Album_App\Album_App.Core\bin\Debug\net6.0-windows\Album_App.Core.deps.json
+C:\Users\admin\Desktop\Album\Album_App\Album_App\Album_App.Core\bin\Debug\net6.0-windows\Album_App.Core.dll
+C:\Users\admin\Desktop\Album\Album_App\Album_App\Album_App.Core\bin\Debug\net6.0-windows\Album_App.Core.pdb
+C:\Users\admin\Desktop\Album\Album_App\Album_App\Album_App.Core\obj\Debug\net6.0-windows\Album_App.Core.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\Album\Album_App\Album_App\Album_App.Core\obj\Debug\net6.0-windows\Album_App.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\Album\Album_App\Album_App\Album_App.Core\obj\Debug\net6.0-windows\Album_App.Core.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\Album\Album_App\Album_App\Album_App.Core\obj\Debug\net6.0-windows\Album_App.Core.AssemblyInfo.cs
+C:\Users\admin\Desktop\Album\Album_App\Album_App\Album_App.Core\obj\Debug\net6.0-windows\Album_App.Core.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Album\Album_App\Album_App\Album_App.Core\obj\Debug\net6.0-windows\Album_App.Core.dll
+C:\Users\admin\Desktop\Album\Album_App\Album_App\Album_App.Core\obj\Debug\net6.0-windows\refint\Album_App.Core.dll
+C:\Users\admin\Desktop\Album\Album_App\Album_App\Album_App.Core\obj\Debug\net6.0-windows\Album_App.Core.pdb
+C:\Users\admin\Desktop\Album\Album_App\Album_App\Album_App.Core\obj\Debug\net6.0-windows\ref\Album_App.Core.dll

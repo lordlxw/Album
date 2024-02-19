@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "104RJqgg9cGmN2Dbkj9JcDA22vjFF6x3W6j02NjUmXPZWmTvBLeENmyUCnypv8APto3J07hSbh9+B3yMiC2WtA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\admin\\Desktop\\Album\\Album_App\\Album_App\\Modules\\Album_App.Modules.ModuleName\\Album_App.Modules.ModuleName.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.31\\microsoft.xaml.behaviors.wpf.1.1.31.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\prism.core\\8.1.97\\prism.core.8.1.97.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\prism.wpf\\8.1.97\\prism.wpf.8.1.97.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512"
+  ],
+  "logs": []
+}
