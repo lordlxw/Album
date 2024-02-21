@@ -3,9 +3,37 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:prism="http://prismlibrary.com/"
         prism:ViewModelLocator.AutoWireViewModel="True"
+        WindowStartupLocation="CenterScreen"
         xmlns:core="clr-namespace:Album_App.Core;assembly=Album_App.Core"
-        Title="{Binding Title}" Height="350" Width="525" >
+        xmlns:Base="clr-namespace:Album_App.Controls.Base"
+        xmlns:Navigation="clr-namespace:Album_App.Controls.Navigation"
+        xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+        Title="{Binding Title}"   Height="800" Width="1280" >
     <Grid>
-        <ContentControl prism:RegionManager.RegionName="{x:Static core:RegionNames.ContentRegion}" />
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto" MinWidth="40"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Border  Grid.Column="0" BorderThickness="0,0,0.1,0" BorderBrush="DimGray">
+            <Border.Effect>
+                <DropShadowEffect ShadowDepth="0" BlurRadius="1" Color="Gray" Direction="45"/>
+            </Border.Effect>
+            <Navigation:Navigation  x:Name="Navigation" Items="{Binding NavigationItems,Mode=TwoWay}" SelectedItem="{Binding NavSelectedItem,Mode=TwoWay}">
+
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="OnSelected">
+                        <i:InvokeCommandAction Command="{Binding ViewCommand}" CommandParameter="{Binding ElementName=Navigation,Path=SelectedItem}"/>
+                    </i:EventTrigger>
+                    <i:EventTrigger EventName="OnMouseRightButtonUP">
+                        <!--<vm:EventCommand Command="{Binding OnMouseRightButtonUPCommand}" />-->
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+                <Navigation:Navigation.BottomExtContent>
+                <Navigation:NavigationItem Icon="Settings" TextInfo="设置"/>
+            </Navigation:Navigation.BottomExtContent>
+        </Navigation:Navigation>
+        </Border>
+        <ContentControl Grid.Column="1" prism:RegionManager.RegionName="{x:Static core:RegionNames.ContentRegion}" />
+      
     </Grid>
 </Window>

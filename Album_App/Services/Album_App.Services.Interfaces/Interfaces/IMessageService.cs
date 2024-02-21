@@ -1,4 +1,4 @@
-﻿namespace Album_App.Services.Interfaces
+﻿namespace Album_App.Services.Interfaces.Interfaces
 {
     public interface IMessageService
     {

@@ -1,6 +1,7 @@
 ﻿using Album_App.Core.Mvvm;
-using Album_App.Services.Interfaces;
+using Album_App.Services.Interfaces.Interfaces;
 using Prism.Regions;
+using System.Windows;
 
 namespace Album_App.Modules.ModuleName.ViewModels
 {
@@ -21,7 +22,7 @@ namespace Album_App.Modules.ModuleName.ViewModels
 
         public override void OnNavigatedTo(NavigationContext navigationContext)
         {
-            //do something
+            MessageBox.Show("1");
         }
     }
 }

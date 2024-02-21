@@ -1,5 +1,5 @@
 ﻿using Album_App.Modules.ModuleName.ViewModels;
-using Album_App.Services.Interfaces;
+using Album_App.Services.Interfaces.Interfaces;
 using Moq;
 using Prism.Regions;
 using Xunit;

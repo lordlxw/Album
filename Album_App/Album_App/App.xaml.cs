@@ -1,6 +1,6 @@
 ﻿using Album_App.Modules.ModuleName;
-using Album_App.Services;
-using Album_App.Services.Interfaces;
+using Album_App.Services.Instances;
+using Album_App.Services.Interfaces.Interfaces;
 using Album_App.Views;
 using Prism.Ioc;
 using Prism.Modularity;
@@ -20,11 +20,13 @@ namespace Album_App
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
+            containerRegistry.RegisterForNavigation<PhotoView>();
             containerRegistry.RegisterSingleton<IMessageService, MessageService>();
         }
 
         protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog)
         {
+            
             moduleCatalog.AddModule<ModuleNameModule>();
         }
     }

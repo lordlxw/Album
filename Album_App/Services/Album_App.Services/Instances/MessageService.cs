@@ -1,6 +1,6 @@
-﻿using Album_App.Services.Interfaces;
+﻿using Album_App.Services.Interfaces.Interfaces;
 
-namespace Album_App.Services
+namespace Album_App.Services.Instances
 {
     public class MessageService : IMessageService
     {
