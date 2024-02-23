@@ -5,8 +5,24 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Album_App.Modules.ModuleName.Views"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+             d:DesignHeight="450" d:DesignWidth="800"
+             xmlns:control="clr-namespace:Control_Library.Controls.Base;assembly=Control_Library">
     <Grid>
-        <Label Content="这是测试页面"/>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Label Content="测试页面12123" FontSize="25"/>
+        <control:ColorZone Grid.Row="1" HorizontalAlignment="Center" Background="Brown" CornerRadius="2" Padding="10">
+            <StackPanel Orientation="Horizontal">
+                <ToggleButton
+       Width="10" />
+
+                <TextBlock
+        VerticalAlignment="Center"
+        Margin="16 0 0 0"
+        Text="Material Design In XAML Toolkit"/>
+            </StackPanel>
+        </control:ColorZone>
     </Grid>
 </UserControl>

@@ -7,7 +7,25 @@
     <PackageReference Include="Prism.Wpf" Version="8.1.97" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\Control_Library\Control_Library.csproj" />
     <ProjectReference Include="..\..\Album_App.Core\Album_App.Core.csproj" />
     <ProjectReference Include="..\..\Services\Album_App.Services.Interfaces\Album_App.Services.Interfaces.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Views\PhotoView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\PicFormatterView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Views\PicFormatterView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Converters\" />
+    <Folder Include="Adorners\" />
   </ItemGroup>
 </Project>

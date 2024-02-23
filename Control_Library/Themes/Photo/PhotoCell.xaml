@@ -1,0 +1,13 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:base="clr-namespace:Control_Library.Controls.Photo">
+    <Style TargetType="base:PhotoCell">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="base:PhotoCell">
+                    <Rectangle Width="{TemplateBinding CellWidth}" Fill="{TemplateBinding Background}" Height="{TemplateBinding CellHeight}"/>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

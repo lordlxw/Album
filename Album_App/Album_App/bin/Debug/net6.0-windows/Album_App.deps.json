@@ -143,6 +143,7 @@
         "dependencies": {
           "Album_App.Core": "1.0.0",
           "Album_App.Services.Interfaces": "1.0.0",
+          "Control_Library": "1.0.0",
           "Prism.Wpf": "8.1.97"
         },
         "runtime": {
@@ -160,6 +161,11 @@
       "Album_App.Services.Interfaces/1.0.0": {
         "runtime": {
           "Album_App.Services.Interfaces.dll": {}
+        }
+      },
+      "Control_Library/1.0.0": {
+        "runtime": {
+          "Control_Library.dll": {}
         }
       }
     }
@@ -291,6 +297,11 @@
       "sha512": ""
     },
     "Album_App.Services.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Control_Library/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

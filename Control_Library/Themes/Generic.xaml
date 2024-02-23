@@ -1,0 +1,15 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ResourceDictionary.MergedDictionaries>
+
+
+
+        <ResourceDictionary Source="/Control_Library;component/Themes/Base/ColorZone.xaml"/>
+        
+        <!-- 引用photo相关-->
+
+        <ResourceDictionary Source="/Control_Library;component/Themes/Photo/PhotoCell.xaml"/>
+        <ResourceDictionary Source="/Control_Library;component/Themes/Photo/PhotoGrid.xaml"/>
+
+    </ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>

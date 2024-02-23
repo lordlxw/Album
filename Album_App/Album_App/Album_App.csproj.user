@@ -7,7 +7,36 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Views\PhotoView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\PicFormatterView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Resources\Themes\Light.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\Base\Icon.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\Generic.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\Navigation\Navigation.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\Navigation\NavigationItem.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\PhotoView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\PicFormatterView.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

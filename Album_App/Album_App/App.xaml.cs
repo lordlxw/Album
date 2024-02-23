@@ -20,8 +20,8 @@ namespace Album_App
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
-            containerRegistry.RegisterForNavigation<PhotoView>();
             containerRegistry.RegisterSingleton<IMessageService, MessageService>();
+            
         }
 
         protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog)
@@ -29,5 +29,7 @@ namespace Album_App
             
             moduleCatalog.AddModule<ModuleNameModule>();
         }
+
+      
     }
 }

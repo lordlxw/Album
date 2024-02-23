@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 
-1-255015040
+4427576873
 
-5174789689
-1991974621103
-Views\ViewA.xaml;
+10849099508
+200-128083098
+Themes\ModulesThemes.xaml;Views\PhotoView.xaml;Views\PicFormatterView.xaml;Views\ViewA.xaml;
 
 True
 

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\admin\Desktop\Album\Album_App\Album_App\Album_App\App.xaml
-1-1644662438
+81491190251
 
-3-325196435
-203321244584
-Views\MainWindow.xaml;
+111110977268
+204-1781459617
+Resources\Themes\Light.xaml;Themes\Base\Icon.xaml;Themes\Generic.xaml;Themes\Navigation\Navigation.xaml;Themes\Navigation\NavigationItem.xaml;Views\MainWindow.xaml;Views\PhotoView.xaml;Views\PicFormatterView.xaml;
 
 False
 

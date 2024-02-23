@@ -47,7 +47,6 @@ namespace Album_App.ViewModels
                 _regionManager.RequestNavigate(RegionNames.ContentRegion, o.Uri);
             });
             InitNavigation();// 导航条初始化
-
         }
 
         private void InitNavigation()
@@ -72,7 +71,9 @@ namespace Album_App.ViewModels
                 Uri = nameof(PicFormatterView),
 
             });
-            _regionManager.RequestNavigate(RegionNames.ContentRegion, NavigationItems[0].Uri); //初始化到概览页面
+
+            NavSelectedItem = NavigationItems[0];
+            //_regionManager.RequestNavigate(RegionNames.ContentRegion, nameof(PicFormatterView)); //初始化到概览页面
         }
     }
 }

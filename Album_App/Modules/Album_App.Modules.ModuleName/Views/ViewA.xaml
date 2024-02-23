@@ -3,11 +3,17 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:Album_App.Modules.ModuleName.Views"
              xmlns:prism="http://prismlibrary.com/"
+             xmlns:photo="clr-namespace:Control_Library.Controls.Photo;assembly=Control_Library"
              prism:ViewModelLocator.AutoWireViewModel="True" >
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
         <TextBlock Text="{Binding Message}"
                    HorizontalAlignment="Center"
                    VerticalAlignment="Center"
                    FontSize="24"/>
+        <photo:PhotoCell CellWidth="20" CellHeight="20"/>
     </Grid>
 </UserControl>

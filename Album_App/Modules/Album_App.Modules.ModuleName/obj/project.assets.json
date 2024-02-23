@@ -76,6 +76,19 @@
         "runtime": {
           "bin/placeholder/Album_App.Services.Interfaces.dll": {}
         }
+      },
+      "Control_Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Control_Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Control_Library.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
       }
     }
   },
@@ -166,12 +179,18 @@
       "type": "project",
       "path": "../../Services/Album_App.Services.Interfaces/Album_App.Services.Interfaces.csproj",
       "msbuildProject": "../../Services/Album_App.Services.Interfaces/Album_App.Services.Interfaces.csproj"
+    },
+    "Control_Library/1.0.0": {
+      "type": "project",
+      "path": "../../../Control_Library/Control_Library.csproj",
+      "msbuildProject": "../../../Control_Library/Control_Library.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
       "Album_App.Core >= 1.0.0",
       "Album_App.Services.Interfaces >= 1.0.0",
+      "Control_Library >= 1.0.0",
       "Prism.Wpf >= 8.1.97"
     ]
   },
@@ -212,6 +231,9 @@
             },
             "C:\\Users\\admin\\Desktop\\Album\\Album_App\\Album_App\\Services\\Album_App.Services.Interfaces\\Album_App.Services.Interfaces.csproj": {
               "projectPath": "C:\\Users\\admin\\Desktop\\Album\\Album_App\\Album_App\\Services\\Album_App.Services.Interfaces\\Album_App.Services.Interfaces.csproj"
+            },
+            "C:\\Users\\admin\\Desktop\\Album\\Album_App\\Control_Library\\Control_Library.csproj": {
+              "projectPath": "C:\\Users\\admin\\Desktop\\Album\\Album_App\\Control_Library\\Control_Library.csproj"
             }
           }
         }

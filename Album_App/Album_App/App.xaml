@@ -9,6 +9,10 @@
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="/Album_App;component/Resources/Themes/Light.xaml"/>
                 <ResourceDictionary Source="pack://application:,,,/Album_App;component/Themes/Generic.xaml"/>
+
+
+                <ResourceDictionary Source="pack://application:,,,/Control_Library;component/Themes/Generic.xaml"/>
+
             </ResourceDictionary.MergedDictionaries>
 
         </ResourceDictionary>

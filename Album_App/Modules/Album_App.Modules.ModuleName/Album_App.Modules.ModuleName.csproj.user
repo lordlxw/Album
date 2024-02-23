@@ -2,6 +2,15 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
+    <Page Update="Themes\ModulesThemes.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\PhotoView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\PicFormatterView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\ViewA.xaml">
       <SubType>Designer</SubType>
     </Page>

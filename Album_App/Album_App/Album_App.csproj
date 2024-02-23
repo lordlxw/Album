@@ -3,7 +3,12 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net6.0-windows</TargetFramework>
     <UseWPF>true</UseWPF>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Resources\AppIcon\cupid.ico" />
+    <None Remove="Resources\Fonts\Segoe Fluent Icons.ttf" />
+  </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Prism.DryIoc" Version="8.1.97" />
   </ItemGroup>
@@ -12,5 +17,13 @@
     <ProjectReference Include="..\Modules\Album_App.Modules.ModuleName\Album_App.Modules.ModuleName.csproj" />
     <ProjectReference Include="..\Services\Album_App.Services.Interfaces\Album_App.Services.Interfaces.csproj" />
     <ProjectReference Include="..\Services\Album_App.Services\Album_App.Services.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\AppIcon\cupid.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <Resource Include="Resources\Fonts\Segoe Fluent Icons.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 </Project>
