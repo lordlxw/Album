@@ -11,3 +11,4 @@ C:\Users\admin\Desktop\Album\Album_App\Album_App\Services\Album_App.Services\obj
 C:\Users\admin\Desktop\Album\Album_App\Album_App\Services\Album_App.Services\obj\Debug\netstandard2.1\Album_App.Services.csproj.CopyComplete
 C:\Users\admin\Desktop\Album\Album_App\Album_App\Services\Album_App.Services\obj\Debug\netstandard2.1\Album_App.Services.dll
 C:\Users\admin\Desktop\Album\Album_App\Album_App\Services\Album_App.Services\obj\Debug\netstandard2.1\Album_App.Services.pdb
+C:\Users\admin\Desktop\Album\Album_App\Album_App\Services\Album_App.Services\obj\Debug\netstandard2.1\Album_App.Services.sourcelink.json

@@ -11,5 +11,10 @@
         <ResourceDictionary Source="/Control_Library;component/Themes/Photo/PhotoCell.xaml"/>
         <ResourceDictionary Source="/Control_Library;component/Themes/Photo/PhotoGrid.xaml"/>
 
+        
+        <!--Icon相关-->
+        <ResourceDictionary Source="/Control_Library;component/Themes/Button/IconButton.xaml"/>
+        <ResourceDictionary Source="/Control_Library;component/Themes/Base/Icon.xaml"/>
+
     </ResourceDictionary.MergedDictionaries>
 </ResourceDictionary>

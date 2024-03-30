@@ -12,9 +12,9 @@ namespace Control_Library.Controls.Photo
     public class PhotoCell:ContentControl
     {
         #region 依赖属性
-        public static readonly DependencyProperty ImageProperty =
+        public static readonly DependencyProperty ImageSourceProperty =
   DependencyProperty.Register(
-    "Image",
+    "ImageSource",
     typeof(ImageSource),
     typeof(PhotoCell),
     new PropertyMetadata(null));
@@ -33,10 +33,10 @@ namespace Control_Library.Controls.Photo
             typeof(PhotoCell),
             new PropertyMetadata(20.0));
 
-        public ImageSource Image
+        public ImageSource ImageSource
         {
-            get { return (ImageSource)GetValue(ImageProperty); }
-            set { SetValue(ImageProperty, value); }
+            get { return (ImageSource)GetValue(ImageSourceProperty); }
+            set { SetValue(ImageSourceProperty, value); }
         }
 
         public double CellWidth
@@ -51,6 +51,15 @@ namespace Control_Library.Controls.Photo
             set { SetValue(HeightProperty, value); }
         }
 
+
+        public static readonly DependencyProperty TestBackGroundProperty =
+    DependencyProperty.Register("TestBackGround", typeof(Brush), typeof(PhotoCell), new PropertyMetadata(Brushes.Transparent));
+
+        public Brush TestBackGround
+        {
+            get { return (Brush)GetValue(TestBackGroundProperty); }
+            set { SetValue(TestBackGroundProperty, value); }
+        }
         #endregion
 
 
@@ -60,6 +69,9 @@ namespace Control_Library.Controls.Photo
             DefaultStyleKey  = typeof(PhotoCell);
         }
 
+
+        public  int PhotoGridRow { get; set; }
+        public  int PhotoGridColumn { get; set; }
         #endregion  
 
 

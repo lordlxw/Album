@@ -1,12 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "8eOOwGkNQ9tyX009oF5kSkdM9XBXNRDt2Bcd2TXXbualxGymZlZNrXwpIed3dS8NhjwFLWB3UnU9al2UxVN+3A==",
+  "dgSpecHash": "v/lOJKN7EoRQoWIFlJ2yA8NUZJu31+Xyk/s6odNDMWTZkcqJaWWBTkDBzCvmz1fcvGbWiP8dLcbwEzAh1FLQHg==",
   "success": true,
   "projectFilePath": "C:\\Users\\admin\\Desktop\\Album\\Album_App\\Album_App\\Modules\\Album_App.Modules.ModuleName\\Album_App.Modules.ModuleName.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\ffmediatoolkit\\4.5.1\\ffmediatoolkit.4.5.1.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\ffmpeg.autogen\\6.0.0.2\\ffmpeg.autogen.6.0.0.2.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\ffmpegcore\\5.1.0\\ffmpegcore.5.1.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\instances\\3.0.0\\instances.3.0.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.31\\microsoft.xaml.behaviors.wpf.1.1.31.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\prism.core\\8.1.97\\prism.core.8.1.97.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\prism.wpf\\8.1.97\\prism.wpf.8.1.97.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\system.drawing.common\\8.0.3\\system.drawing.common.8.0.3.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\system.text.json\\7.0.2\\system.text.json.7.0.2.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512"

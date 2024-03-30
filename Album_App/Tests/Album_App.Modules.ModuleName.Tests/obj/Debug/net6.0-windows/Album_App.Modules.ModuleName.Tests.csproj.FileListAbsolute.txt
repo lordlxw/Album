@@ -113,3 +113,14 @@ C:\Users\admin\Desktop\Album\Album_App\Album_App\Tests\Album_App.Modules.ModuleN
 C:\Users\admin\Desktop\Album\Album_App\Album_App\Tests\Album_App.Modules.ModuleName.Tests\obj\Debug\net6.0-windows\Album_App.Modules.ModuleName.Tests.pdb
 C:\Users\admin\Desktop\Album\Album_App\Album_App\Tests\Album_App.Modules.ModuleName.Tests\obj\Debug\net6.0-windows\Album_App.Modules.ModuleName.Tests.genruntimeconfig.cache
 C:\Users\admin\Desktop\Album\Album_App\Album_App\Tests\Album_App.Modules.ModuleName.Tests\obj\Debug\net6.0-windows\ref\Album_App.Modules.ModuleName.Tests.dll
+C:\Users\admin\Desktop\Album\Album_App\Album_App\Tests\Album_App.Modules.ModuleName.Tests\bin\Debug\net6.0-windows\FFMediaToolkit.dll
+C:\Users\admin\Desktop\Album\Album_App\Album_App\Tests\Album_App.Modules.ModuleName.Tests\bin\Debug\net6.0-windows\FFmpeg.AutoGen.dll
+C:\Users\admin\Desktop\Album\Album_App\Album_App\Tests\Album_App.Modules.ModuleName.Tests\bin\Debug\net6.0-windows\Microsoft.Win32.SystemEvents.dll
+C:\Users\admin\Desktop\Album\Album_App\Album_App\Tests\Album_App.Modules.ModuleName.Tests\bin\Debug\net6.0-windows\System.Drawing.Common.dll
+C:\Users\admin\Desktop\Album\Album_App\Album_App\Tests\Album_App.Modules.ModuleName.Tests\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\admin\Desktop\Album\Album_App\Album_App\Tests\Album_App.Modules.ModuleName.Tests\bin\Debug\net6.0-windows\FFMpegCore.dll
+C:\Users\admin\Desktop\Album\Album_App\Album_App\Tests\Album_App.Modules.ModuleName.Tests\bin\Debug\net6.0-windows\Instances.dll
+C:\Users\admin\Desktop\Album\Album_App\Album_App\Tests\Album_App.Modules.ModuleName.Tests\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\admin\Desktop\Album\Album_App\Album_App\Tests\Album_App.Modules.ModuleName.Tests\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\admin\Desktop\Album\Album_App\Album_App\Tests\Album_App.Modules.ModuleName.Tests\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\admin\Desktop\Album\Album_App\Album_App\Tests\Album_App.Modules.ModuleName.Tests\obj\Debug\net6.0-windows\Album_App.Modules.ModuleName.Tests.sourcelink.json

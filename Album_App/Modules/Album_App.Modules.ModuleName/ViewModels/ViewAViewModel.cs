@@ -24,5 +24,7 @@ namespace Album_App.Modules.ModuleName.ViewModels
         {
             MessageBox.Show("1");
         }
+
+    
     }
 }

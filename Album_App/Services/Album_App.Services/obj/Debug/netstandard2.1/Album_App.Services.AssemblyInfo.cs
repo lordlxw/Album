@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Album_App.Services")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dbb44d33c912d161ca551e07bb46e36115a39c72")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21db4ea37b83b0275f44b2ab0632ed0b54129492")]
 [assembly: System.Reflection.AssemblyProductAttribute("Album_App.Services")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Album_App.Services")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

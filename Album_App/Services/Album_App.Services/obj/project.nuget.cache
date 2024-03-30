@@ -1,8 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "wdrLC5H7gGEPBzJZINdnF8ozuYrktXtO1E4NBiQsH0aO77Z7D0zF7Gr6O4s9SMa92rvOAUypijP1UV4WAUz81Q==",
+  "dgSpecHash": "XkucxmxF9cigWShHHp4yqEcDBlaleZQCMJES79gPGT44kjWiucn4tAZx//SW3Cg62cmPZWpb1vwna1yLqd8s3g==",
   "success": true,
   "projectFilePath": "C:\\Users\\admin\\Desktop\\Album\\Album_App\\Album_App\\Services\\Album_App.Services\\Album_App.Services.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\ffmediatoolkit\\4.5.1\\ffmediatoolkit.4.5.1.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\ffmpeg.autogen\\6.0.0.2\\ffmpeg.autogen.6.0.0.2.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\ffmpegcore\\5.1.0\\ffmpegcore.5.1.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\instances\\3.0.0\\instances.3.0.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\system.drawing.common\\8.0.3\\system.drawing.common.8.0.3.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\system.text.json\\7.0.2\\system.text.json.7.0.2.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
   "logs": []
 }

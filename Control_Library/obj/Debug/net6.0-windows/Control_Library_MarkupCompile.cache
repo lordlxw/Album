@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 
-41714465338
+7-1523500693
 
-101962033876
+151495205312
 1941332748073
-Themes\Base\ColorZone.xaml;Themes\Generic.xaml;Themes\Photo\PhotoCell.xaml;Themes\Photo\PhotoGrid.xaml;
+Themes\Base\ColorZone.xaml;Themes\Base\Icon.xaml;Themes\Base\NumberTextBox.xaml;Themes\Button\IconButton.xaml;Themes\Generic.xaml;Themes\Photo\PhotoCell.xaml;Themes\Photo\PhotoGrid.xaml;
 
 False
 

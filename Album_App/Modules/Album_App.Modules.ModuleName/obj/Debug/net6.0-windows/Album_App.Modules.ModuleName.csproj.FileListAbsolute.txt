@@ -29,3 +29,4 @@ C:\Users\admin\Desktop\Album\Album_App\Album_App\Modules\Album_App.Modules.Modul
 C:\Users\admin\Desktop\Album\Album_App\Album_App\Modules\Album_App.Modules.ModuleName\obj\Debug\net6.0-windows\refint\Album_App.Modules.ModuleName.dll
 C:\Users\admin\Desktop\Album\Album_App\Album_App\Modules\Album_App.Modules.ModuleName\obj\Debug\net6.0-windows\Album_App.Modules.ModuleName.pdb
 C:\Users\admin\Desktop\Album\Album_App\Album_App\Modules\Album_App.Modules.ModuleName\obj\Debug\net6.0-windows\ref\Album_App.Modules.ModuleName.dll
+C:\Users\admin\Desktop\Album\Album_App\Album_App\Modules\Album_App.Modules.ModuleName\obj\Debug\net6.0-windows\Album_App.Modules.ModuleName.sourcelink.json

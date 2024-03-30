@@ -5,6 +5,15 @@
     <Page Update="Themes\Base\ColorZone.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Themes\Base\Icon.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\Base\NumberTextBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\Button\IconButton.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Themes\Generic.xaml">
       <SubType>Designer</SubType>
     </Page>

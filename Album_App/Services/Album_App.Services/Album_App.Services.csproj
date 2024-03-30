@@ -5,6 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FFMediaToolkit" Version="4.5.1" />
+    <PackageReference Include="FFMpegCore" Version="5.1.0" />
+    <PackageReference Include="System.Drawing.Common" Version="8.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Album_App.Services.Interfaces\Album_App.Services.Interfaces.csproj" />
   </ItemGroup>
 

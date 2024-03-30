@@ -5,8 +5,8 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type local:PhotoGrid}">
-                    <Grid >
-                        <ItemsControl x:Name="ItemsPanel" ItemsSource="{TemplateBinding PhotoData}">
+                    <Grid x:Name="ItemsPanel" ShowGridLines="True">
+                        <!--<ItemsControl x:Name="ItemsPanel"  ItemsSource="{TemplateBinding PhotoData}">
                             <ItemsControl.ItemsPanel>
                                 <ItemsPanelTemplate>
                                     <UniformGrid Rows="{Binding RowNums, RelativeSource={RelativeSource TemplatedParent}}" Columns="{Binding ColumnNums, RelativeSource={RelativeSource TemplatedParent}}" />
@@ -15,11 +15,11 @@
 
                             <ItemsControl.ItemTemplate>
                                 <DataTemplate>
-                                    <!--<local:PhotoCell  CellWidth="20" CellHeight="20" Background="Red" />-->
+                                    --><!--<local:PhotoCell  CellWidth="20" CellHeight="20" Background="Red" />--><!--
                                     <Label Content="123"  Background="Yellow"/>
                                 </DataTemplate>
                             </ItemsControl.ItemTemplate>
-                        </ItemsControl>
+                        </ItemsControl>-->
                     </Grid>
                 </ControlTemplate>
             </Setter.Value>
