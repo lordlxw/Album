@@ -240,6 +240,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Album_App.Core": "1.0.0",
+          "Album_App.Services": "1.0.0",
           "Album_App.Services.Interfaces": "1.0.0",
           "Control_Library": "1.0.0",
           "Prism.Wpf": "8.1.97"

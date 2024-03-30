@@ -5,19 +5,39 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Album_App.Modules.ModuleName.Views"
              xmlns:photo="clr-namespace:Control_Library.Controls.Photo;assembly=Control_Library"
+             xmlns:Btn="clr-namespace:Control_Library.Controls.Base.Button;assembly=Control_Library"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="auto "/>
-            <RowDefinition Height="130"/>
             <RowDefinition Height="auto"/>
+            <RowDefinition  Height="auto"/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <TextBlock Text="概览页面1"
-                   HorizontalAlignment="Center"
-                   VerticalAlignment="Center"
-                   FontSize="24"/>
-        <photo:PhotoCell Grid.Row="1" CellWidth="20" CellHeight="20" Background="Red" />
-        <photo:PhotoGrid Grid.Row="2" PhotoData="{Binding PhotoData}"  ColumnNums="3" RowNums="2"  />
+
+        <Btn:IconButton Height="30" HorizontalAlignment="Center"  Grid.Row="0"  Margin="10,0,0,0" Icon="Share" Content="导入图片文件夹" Width="160" Command="{Binding ExportDataCommand}" Padding="10"/>
+
+        <Grid Grid.Row="1" >
+            <StackPanel>
+            <StackPanel Orientation="Horizontal" >
+                <TextBlock Text="行："/>
+                <TextBox Text="{Binding RowNum,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" >
+                <TextBlock Text="列："/>
+                <TextBox Text="{Binding ColNum,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
+            </StackPanel>
+
+            <Button Content="随机一个" Command="{Binding AddCellCmd}" Width="100"/>
+
+            <!--<ScrollViewer VerticalScrollBarVisibility="Visible" Height="110">
+                <Label Content="{Binding TextInfo}"  />
+            </ScrollViewer>-->
+            </StackPanel>
+        </Grid>
+        <!--<photo:PhotoCell Grid.Row="1" CellWidth="20" CellHeight="20" Background="Red" />-->
+        <photo:PhotoGrid Grid.Row="2" PhotoData="{Binding PhotoDatas,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"   ColumnNums="{Binding ColNum,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" RowNums="{Binding RowNum,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"  />
+
+      
     </Grid>
 </UserControl>

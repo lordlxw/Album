@@ -67,6 +67,19 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
+      "Album_App.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Album_App.Services.Interfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Album_App.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Album_App.Services.dll": {}
+        }
+      },
       "Album_App.Services.Interfaces/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
@@ -175,6 +188,11 @@
       "path": "../../Album_App.Core/Album_App.Core.csproj",
       "msbuildProject": "../../Album_App.Core/Album_App.Core.csproj"
     },
+    "Album_App.Services/1.0.0": {
+      "type": "project",
+      "path": "../../Services/Album_App.Services/Album_App.Services.csproj",
+      "msbuildProject": "../../Services/Album_App.Services/Album_App.Services.csproj"
+    },
     "Album_App.Services.Interfaces/1.0.0": {
       "type": "project",
       "path": "../../Services/Album_App.Services.Interfaces/Album_App.Services.Interfaces.csproj",
@@ -189,6 +207,7 @@
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
       "Album_App.Core >= 1.0.0",
+      "Album_App.Services >= 1.0.0",
       "Album_App.Services.Interfaces >= 1.0.0",
       "Control_Library >= 1.0.0",
       "Prism.Wpf >= 8.1.97"
@@ -231,6 +250,9 @@
             },
             "C:\\Users\\admin\\Desktop\\Album\\Album_App\\Album_App\\Services\\Album_App.Services.Interfaces\\Album_App.Services.Interfaces.csproj": {
               "projectPath": "C:\\Users\\admin\\Desktop\\Album\\Album_App\\Album_App\\Services\\Album_App.Services.Interfaces\\Album_App.Services.Interfaces.csproj"
+            },
+            "C:\\Users\\admin\\Desktop\\Album\\Album_App\\Album_App\\Services\\Album_App.Services\\Album_App.Services.csproj": {
+              "projectPath": "C:\\Users\\admin\\Desktop\\Album\\Album_App\\Album_App\\Services\\Album_App.Services\\Album_App.Services.csproj"
             },
             "C:\\Users\\admin\\Desktop\\Album\\Album_App\\Control_Library\\Control_Library.csproj": {
               "projectPath": "C:\\Users\\admin\\Desktop\\Album\\Album_App\\Control_Library\\Control_Library.csproj"

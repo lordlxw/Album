@@ -1,4 +1,5 @@
 ﻿using Control_Library.Controls.Photo.PhotoModel;
+using Prism.Commands;
 using Prism.Mvvm;
 using System;
 using System.Collections.Generic;
@@ -6,16 +7,25 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Media;
 
 namespace Album_App.Modules.ModuleName.ViewModels
 {
     public class PhotoViewModel:BindableBase
     {
-        public ObservableCollection<PhotoCellItem> PhotoData { get; set; }
+ 
+
+        private ObservableCollection<PhotoCellItem> photoData;
+
+        public ObservableCollection<PhotoCellItem> PhotoDatas
+        {
+            get { return photoData; }
+            set { photoData = value;RaisePropertyChanged(); }
+        }
 
 
         #region 依赖属性
-        private int rowNum=14;
+        private int rowNum=10;
 
         public int RowNum
         {
@@ -23,43 +33,56 @@ namespace Album_App.Modules.ModuleName.ViewModels
             set { rowNum = value; RaisePropertyChanged(); }
         }
 
-        private int columnNum=15;
+        private int colNum=10;
 
-        public int ColumnNum
+        public int ColNum
         {
-            get { return columnNum; }
-            set { columnNum = value; RaisePropertyChanged(); }
+            get { return colNum; }
+            set { colNum = value; RaisePropertyChanged(); }
         }
+        #endregion
+
+        #region 命令
+        public DelegateCommand AddCellCmd { get; set; }
         #endregion
         public PhotoViewModel()
         {
-            PhotoData = new ObservableCollection<PhotoCellItem>();
-            PhotoData.Add(new PhotoCellItem() { CellHeight = 20, CellWidth = 20 });
-            PhotoData.Add(new PhotoCellItem() { CellHeight = 20, CellWidth = 20 });
-            PhotoData.Add(new PhotoCellItem() { CellHeight = 20, CellWidth = 20 });
-            PhotoData.Add(new PhotoCellItem() { CellHeight = 20, CellWidth = 20 });
-            PhotoData.Add(new PhotoCellItem() { CellHeight = 20, CellWidth = 20 });
-            PhotoData.Add(new PhotoCellItem() { CellHeight = 20, CellWidth = 20 });
-            PhotoData.Add(new PhotoCellItem() { CellHeight = 20, CellWidth = 20 });
-            PhotoData.Add(new PhotoCellItem() { CellHeight = 20, CellWidth = 20 });
-            PhotoData.Add(new PhotoCellItem() { CellHeight = 20, CellWidth = 20 });
-            PhotoData.Add(new PhotoCellItem() { CellHeight = 20, CellWidth = 20 });
-            PhotoData.Add(new PhotoCellItem() { CellHeight = 20, CellWidth = 20 });
-            PhotoData.Add(new PhotoCellItem() { CellHeight = 20, CellWidth = 20 });
-            PhotoData.Add(new PhotoCellItem() { CellHeight = 20, CellWidth = 20 });
-            PhotoData.Add(new PhotoCellItem() { CellHeight = 20, CellWidth = 20 });
-            PhotoData.Add(new PhotoCellItem() { CellHeight = 20, CellWidth = 20 });
-            PhotoData.Add(new PhotoCellItem() { CellHeight = 20, CellWidth = 20 });
-            PhotoData.Add(new PhotoCellItem() { CellHeight = 20, CellWidth = 20 });
-            PhotoData.Add(new PhotoCellItem() { CellHeight = 20, CellWidth = 20 });
-            PhotoData.Add(new PhotoCellItem() { CellHeight = 20, CellWidth = 20 });
-            PhotoData.Add(new PhotoCellItem() { CellHeight = 20, CellWidth = 20 });
-            PhotoData.Add(new PhotoCellItem() { CellHeight = 20, CellWidth = 20 });
-            PhotoData.Add(new PhotoCellItem() { CellHeight = 20, CellWidth = 20 });
-            PhotoData.Add(new PhotoCellItem() { CellHeight = 20, CellWidth = 20 });
-            PhotoData.Add(new PhotoCellItem() { CellHeight = 20, CellWidth = 20 });
-            PhotoData.Add(new PhotoCellItem() { CellHeight = 20, CellWidth = 20 });
-            PhotoData.Add(new PhotoCellItem() { CellHeight = 20, CellWidth = 20 });
+            PhotoDatas = new ObservableCollection<PhotoCellItem>();
+           
+
+            AddCellCmd = new DelegateCommand(() =>
+            {
+                var random = new Random();
+                int row = RowNum;
+                int col = ColNum;
+
+                for(int i=0;i<row;i++)
+                {
+                    for(int j=0;j<col;j++)
+                    {
+                        var randomColor = GetRandomColor();
+                        var item = new PhotoCellItem() { CellHeight = 20, CellWidth = 20, PhotoGridRow = i, PhotoGridColumn = j, Brush = randomColor };
+                        PhotoDatas.Add(item);
+                        TextInfo += item.ToString()+"\r";
+                    }
+                }
+              
+            });
+        }
+        public static Brush GetRandomColor()
+        {
+            var random = new Random();
+            var red = random.Next(256);
+            var green = random.Next(256);
+            var blue = random.Next(256);
+            return new SolidColorBrush(Color.FromRgb((byte)red, (byte)green, (byte)blue));
+        }
+        private string Text;
+
+        public string TextInfo
+        {
+            get { return Text; }
+            set { Text = value;RaisePropertyChanged(); }
         }
 
     }
