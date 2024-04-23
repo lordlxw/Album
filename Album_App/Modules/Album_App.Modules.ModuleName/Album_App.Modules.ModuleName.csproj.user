@@ -2,7 +2,15 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
+    <Compile Update="Views\DeduplicationView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
     <Page Update="Themes\ModulesThemes.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\DeduplicationView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\PhotoView.xaml">

@@ -24,9 +24,10 @@ namespace Album_App
             containerRegistry.RegisterSingleton<IMessageService, MessageService>();
             // 注册 ICaptureVideoImage 接口的实现类 CaptureVideoImage
             containerRegistry.Register<ICaptureVideoImage, CaptureVideoImage>();
+            containerRegistry.Register<IDeduplicate, Deduplicate>();
 
             // 注册 MainWindowViewModel 类
-           // containerRegistry.Register<MainWindowViewModel>();
+            // containerRegistry.Register<MainWindowViewModel>();
         }
 
         protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog)

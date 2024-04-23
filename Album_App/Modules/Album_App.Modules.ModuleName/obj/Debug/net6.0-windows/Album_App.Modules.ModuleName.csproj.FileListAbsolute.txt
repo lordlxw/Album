@@ -30,3 +30,5 @@ C:\Users\admin\Desktop\Album\Album_App\Album_App\Modules\Album_App.Modules.Modul
 C:\Users\admin\Desktop\Album\Album_App\Album_App\Modules\Album_App.Modules.ModuleName\obj\Debug\net6.0-windows\Album_App.Modules.ModuleName.pdb
 C:\Users\admin\Desktop\Album\Album_App\Album_App\Modules\Album_App.Modules.ModuleName\obj\Debug\net6.0-windows\ref\Album_App.Modules.ModuleName.dll
 C:\Users\admin\Desktop\Album\Album_App\Album_App\Modules\Album_App.Modules.ModuleName\obj\Debug\net6.0-windows\Album_App.Modules.ModuleName.sourcelink.json
+C:\Users\admin\Desktop\Album\Album_App\Album_App\Modules\Album_App.Modules.ModuleName\obj\Debug\net6.0-windows\Views\DeduplicationView.g.cs
+C:\Users\admin\Desktop\Album\Album_App\Album_App\Modules\Album_App.Modules.ModuleName\obj\Debug\net6.0-windows\Views\DeduplicationView.baml

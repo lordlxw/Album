@@ -28,6 +28,8 @@ namespace Album_App.Modules.ModuleName
         {
             containerRegistry.RegisterForNavigation<PhotoView>();
             containerRegistry.RegisterForNavigation<PicFormatterView>();
+            containerRegistry.RegisterForNavigation<DeduplicationView>();
+            containerRegistry.RegisterForNavigation<ViewA>();
         }
     }
 }

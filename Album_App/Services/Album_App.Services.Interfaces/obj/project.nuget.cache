@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "RpEAacJhTk9B9JDpB+GkUpEB0zY12GyGQTW1j1XMb75nwrkA2e0Y+m/JDhbRksj+GbzqOXTqnoY36Ks74BBK6w==",
+  "dgSpecHash": "CRVozJm7sfsplj9s7I6NmRwdlFdRjDOgEFSWxpSVk6d7q4UHD1SwTBhRRztjBsOc5h4b7ndahqwnDS6kDpeuPw==",
   "success": true,
   "projectFilePath": "C:\\Users\\admin\\Desktop\\Album\\Album_App\\Album_App\\Services\\Album_App.Services.Interfaces\\Album_App.Services.Interfaces.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\system.drawing.common\\8.0.3\\system.drawing.common.8.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

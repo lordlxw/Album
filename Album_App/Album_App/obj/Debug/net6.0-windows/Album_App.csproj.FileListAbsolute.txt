@@ -58,3 +58,5 @@ C:\Users\admin\Desktop\Album\Album_App\Album_App\Album_App\bin\Debug\net6.0-wind
 C:\Users\admin\Desktop\Album\Album_App\Album_App\Album_App\bin\Debug\net6.0-windows\System.Text.Json.dll
 C:\Users\admin\Desktop\Album\Album_App\Album_App\Album_App\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 C:\Users\admin\Desktop\Album\Album_App\Album_App\Album_App\obj\Debug\net6.0-windows\Album_App.sourcelink.json
+C:\Users\admin\Desktop\Album\Album_App\Album_App\Album_App\bin\Debug\net6.0-windows\Microsoft.WindowsAPICodePack.dll
+C:\Users\admin\Desktop\Album\Album_App\Album_App\Album_App\bin\Debug\net6.0-windows\Microsoft.WindowsAPICodePack.Shell.dll

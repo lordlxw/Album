@@ -35,7 +35,6 @@
         </Border>
         <Button Content="抓取视频图片" Command="{Binding CaptureImagesCommand}" VerticalAlignment="Center" Background="SandyBrown"/>
         <ContentControl Grid.Column="1" prism:RegionManager.RegionName="{x:Static core:RegionNames.ContentRegion}" />
-        <ProgressBar Grid.Column="1" Value="{Binding Progress}" Minimum="0" Maximum="100" VerticalAlignment="Center" Width="100" Height="50"/>
 
     </Grid>
 </Window>

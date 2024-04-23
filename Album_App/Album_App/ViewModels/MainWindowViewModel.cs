@@ -1,6 +1,7 @@
 ﻿using Album_App.Controls.Base;
 using Album_App.Controls.Navigation.Models;
 using Album_App.Core;
+using Album_App.Modules.ModuleName.Views;
 using Album_App.Services.Instances;
 using Album_App.Services.Interfaces.Interfaces;
 using Album_App.Views;
@@ -16,6 +17,8 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
+using PhotoView = Album_App.Modules.ModuleName.Views.PhotoView;
+using PicFormatterView = Album_App.Modules.ModuleName.Views.PicFormatterView;
 
 namespace Album_App.ViewModels
 {
@@ -130,9 +133,15 @@ namespace Album_App.ViewModels
                 Title = "图片转换",
                 ID = 2,
                 Uri = nameof(PicFormatterView),
-
             });
-
+            NavigationItems.Add(new Controls.Navigation.Models.NavigationItemModel()
+            {
+                UnSelectedIcon = Controls.Base.IconTypes.ImageExport,
+                SelectedIcon = IconTypes.ImportAllMirrored,
+                Title = "图片去重",
+                ID =3,
+                Uri = nameof(DeduplicationView),
+            });
             NavSelectedItem = NavigationItems[0];
             //_regionManager.RequestNavigate(RegionNames.ContentRegion, nameof(PicFormatterView)); //初始化到概览页面
         }

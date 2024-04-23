@@ -8,3 +8,4 @@ C:\Users\admin\Desktop\Album\Album_App\Album_App\Services\Album_App.Services.Int
 C:\Users\admin\Desktop\Album\Album_App\Album_App\Services\Album_App.Services.Interfaces\obj\Debug\netstandard2.1\Album_App.Services.Interfaces.dll
 C:\Users\admin\Desktop\Album\Album_App\Album_App\Services\Album_App.Services.Interfaces\obj\Debug\netstandard2.1\Album_App.Services.Interfaces.pdb
 C:\Users\admin\Desktop\Album\Album_App\Album_App\Services\Album_App.Services.Interfaces\obj\Debug\netstandard2.1\Album_App.Services.Interfaces.sourcelink.json
+C:\Users\admin\Desktop\Album\Album_App\Album_App\Services\Album_App.Services.Interfaces\obj\Debug\netstandard2.1\Album_App.Services.Interfaces.csproj.AssemblyReference.cache

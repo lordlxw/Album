@@ -205,6 +205,9 @@
       "Album_App.Services.Interfaces/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "System.Drawing.Common": "8.0.3"
+        },
         "compile": {
           "bin/placeholder/Album_App.Services.Interfaces.dll": {}
         },
