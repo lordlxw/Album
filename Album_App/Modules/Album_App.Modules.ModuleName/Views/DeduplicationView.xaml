@@ -18,13 +18,32 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="30"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="30"/>
         </Grid.RowDefinitions>
         <StackPanel Orientation="Horizontal">
             <Label Content="图片去重" />
             <base:IconButton Margin="20,0,0,0"  Icon="Reshare" Content="导入文件夹" Cursor="Hand" Command="{Binding ImportDataCommand}" />
         </StackPanel>
 
-        <StackPanel Grid.Row="1" Orientation="Horizontal" Height="30"  VerticalAlignment="Bottom">
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <DockPanel Grid.Column="0" LastChildFill="False">
+                <Image  Source="{Binding Image1}" DockPanel.Dock="Top"/>
+                <Button Content="选择图片1" Command="{Binding ChoseImageCommand}" CommandParameter="1" DockPanel.Dock="Bottom" Height="20" Width="60"/>
+            </DockPanel>
+            <DockPanel Grid.Column="1" LastChildFill="False">
+                <Image  Source="{Binding Image2}" DockPanel.Dock="Top"/>
+                <Button Content="选择图片2" Command="{Binding ChoseImageCommand}" CommandParameter="2" DockPanel.Dock="Bottom" Height="20" Width="60"/>
+            </DockPanel>
+        </Grid>
+        <StackPanel Grid.Row="2" Orientation="Horizontal" Height="30"  VerticalAlignment="Bottom">
+            <Label Content="相似度分数"/>
+            <TextBox Text="{Binding Grade}" MinWidth="70" Height="25"/>
+            <Button Command="{Binding CompareCommand}" Content="比较打分"  MinWidth="60" Height="25"/>
+            <Label Content="状态栏" Margin="0,0,10,0" FontWeight="Bold"/>
             <Label Content="图片数量："/>
             <Label Content="{Binding ComparedImageCount}"/>
             <Label Content="/"/>

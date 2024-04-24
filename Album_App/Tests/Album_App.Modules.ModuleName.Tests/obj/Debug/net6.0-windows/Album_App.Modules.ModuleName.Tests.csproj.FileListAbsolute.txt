@@ -124,3 +124,5 @@ C:\Users\admin\Desktop\Album\Album_App\Album_App\Tests\Album_App.Modules.ModuleN
 C:\Users\admin\Desktop\Album\Album_App\Album_App\Tests\Album_App.Modules.ModuleName.Tests\bin\Debug\net6.0-windows\System.Text.Json.dll
 C:\Users\admin\Desktop\Album\Album_App\Album_App\Tests\Album_App.Modules.ModuleName.Tests\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 C:\Users\admin\Desktop\Album\Album_App\Album_App\Tests\Album_App.Modules.ModuleName.Tests\obj\Debug\net6.0-windows\Album_App.Modules.ModuleName.Tests.sourcelink.json
+C:\Users\admin\Desktop\Album\Album_App\Album_App\Tests\Album_App.Modules.ModuleName.Tests\bin\Debug\net6.0-windows\Microsoft.WindowsAPICodePack.dll
+C:\Users\admin\Desktop\Album\Album_App\Album_App\Tests\Album_App.Modules.ModuleName.Tests\bin\Debug\net6.0-windows\Microsoft.WindowsAPICodePack.Shell.dll

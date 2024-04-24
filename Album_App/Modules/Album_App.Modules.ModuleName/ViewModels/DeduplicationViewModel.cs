@@ -1,4 +1,5 @@
-﻿using Album_App.Services.Interfaces.Interfaces;
+﻿using Album_App.Services.Instances;
+using Album_App.Services.Interfaces.Interfaces;
 using Microsoft.Win32;
 using Microsoft.WindowsAPICodePack.Dialogs;
 using Prism.Commands;
@@ -50,7 +51,11 @@ namespace Album_App.Modules.ModuleName.ViewModels
         {
             _deduplicate = deduplicate;
             ImportDataCommand = new DelegateCommand(ImportOnlyImageData);
+
+            ChoseImageCommand = new DelegateCommand<string>(ChoseImage);
         }
+
+ 
         #endregion
 
         #region 具体方法
@@ -80,13 +85,23 @@ namespace Album_App.Modules.ModuleName.ViewModels
 
                     this.AllImageCount = imageFiles.Length;
                     // 处理图片文件
-                    foreach (FileInfo imageFile in imageFiles)
-                    {
-                        // 这里可以调用你的处理方法，比如显示图片、保存图片信息等
-                        // 示例代码：处理图片文件的方法
-                       // ProcessImage(imageFile.FullName);
-                    }
+                    ProcessImage(imageFiles);
+                    //foreach (FileInfo imageFile in imageFiles)
+                    //{
+                    //    // 这里可以调用你的处理方法，比如显示图片、保存图片信息等
+                    //    // 示例代码：处理图片文件的方法
+                    //    ProcessImage(imageFile.FullName);
+                    //}
                 }
+            }
+        }
+        // 示例方法：处理图片文件的方法
+        private async Task ProcessImage(FileInfo[] imageFiles)
+        {
+            foreach (FileInfo imageFile in imageFiles)
+            {
+                // 调用 Deduplicate 类中的方法处理图片文件
+                await Task.Run(() => _deduplicate.Resize(imageFile.FullName, "new_" + imageFile.FullName));
             }
         }
 
@@ -96,6 +111,46 @@ namespace Album_App.Modules.ModuleName.ViewModels
         {
             string extension = Path.GetExtension(filePath).ToLower();
             return extension == ".jpg" || extension == ".jpeg" || extension == ".png" || extension == ".gif";
+        }
+        #endregion
+
+
+        #region 测试比较相似度
+        private string image1;
+
+        public string Image1
+        {
+            get { return image1; }
+            set { image1 = value;RaisePropertyChanged(); }
+        }
+
+        private string image2;
+
+        public string Image2
+        {
+            get { return image2; }
+            set { image2 = value; RaisePropertyChanged(); }
+        }
+
+        public DelegateCommand<string> ChoseImageCommand { get; set; }
+
+        private void ChoseImage(string obj)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "Image files (*.png;*.jpg;*.jpeg;*.gif)|*.png;*.jpg;*.jpeg;*.gif|All files (*.*)|*.*";
+            if (openFileDialog.ShowDialog() == true)
+            {
+                if (obj == "1")
+                {
+                    Image1 = openFileDialog.FileName;
+                }
+                else
+                {
+                    Image2 = openFileDialog.FileName;
+                }
+
+
+            }
         }
         #endregion
     }
